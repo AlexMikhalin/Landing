@@ -1,0 +1,265 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: arial, helvetica;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.label {
+	font-family: 'Catamaran', sans-serif;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	color: #FFFFFF;
+	font-size: 10px;
+	/*letter-spacing: -2px;*/
+}
+
+.uniform {
+	font-family: 'Lora', serif;
+}
+
+.label-head {
+	font-size: 40px;
+}
+
+.label-foot {
+	margin-top: 1px;
+	word-spacing: 0.1px;
+	line-height: 0;
+}
+
+.label p {
+	width: 100%;
+	text-align: justify;
+}
+
+.label p:last-child:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.promo {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: right;
+}
+
+.socials {
+	position: fixed;
+	top: 550px;
+	left: 10px;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: right;
+}
+
+.sectionHead {
+	position: relative;
+}
+
+.availability {
+	position: absolute;
+	left: -92px;
+	top: 13px;
+	width: 82px;
+	text-align: right;
+	line-height: 17px;
+	font-size: 15px;
+}
+
+.availability span {
+	background: red;
+	color: white;
+}
+
+.contacts {
+	position: fixed;
+	top: 600px;
+	left: 10px;
+	color: rgba(255, 255, 255, 0.40);
+	font-size: 10px;
+	text-align: left;
+}
+
+.scroll-down {
+	text-align: left;
+}
+
+.scroll-down span {
+	background: red;
+	color: white;
+	height: 40px;
+	width: 134px;
+}
+
+.youtube {
+	position: fixed;
+	top: 100px;
+	transform: rotate(-90deg);
+	right: -29px;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-align: center;
+	background: red;
+	height: 100px;
+	width: 120px;
+	line-height: 25px;
+	vertical-align: top;
+	font-family: 'Catamaran', sans-serif;
+}
+
+.pointer {
+	font-size: 15px;
+}
+
+.partners {
+	margin-top: 170px;
+}
+
+.section {
+	text-align: center;
+}
+
+.team {
+	color: white;
+	text-align: left;
+}
+
+.letter {
+	font-weight: 700;
+}
+
+.intro {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.feedback {
+	color: white;
+	margin-top: 25px;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.phone {
+	color: white;
+	font-size: 3em;
+	text-align: left;
+	line-height: 47px;
+	letter-spacing: 2px;
+	font-weight: 900;
+}
+
+.freerf {
+	color: #FFFFFF;
+	background: red;
+	font-size: 22, 5px;
+	text-align: left;
+	font-weight: 300;
+	width: 100px;
+	line-height: 20px;
+	margin: 7px 0 0 0;
+}
+
+#section0 .intro {
+	background-image: url('12.jpg');
+}
+
+#section1 .intro {
+	background-image: url('http://bestwallpaperhd.com/wp-content/uploads/2015/12/Pioneer-Dj.jpg');
+}
+
+#section2 .intro {
+	background-image: url('14.jpg');
+}
+
+.filling h1 {
+	color: white;
+	text-align: left;
+	font-size: 30px;
+}
+
+#section0 .filling h1 {
+	font-size: 4em;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
+}
+
+#section0 .filling p {
+	font-size: 0.8em;
+	width: 30%;
+}
+
+#section1 .filling h1 {
+	font-size: 3em;
+	margin-top: 150px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
+}
+
+#section1 .filling p {
+	font-size: 0.8em;
+	width: 30%;
+}
+
+#section2 .filling h1 {
+	margin-top: 170px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
+	font-size: 37px;
+}
+
+.icons {
+	border-radius: 100px;
+	width: 30px;
+	height: 33px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.features {
+	text-align: left;
+}
+
+.filling p:not(.phone):not(.team) {
+	font-size: 1em;
+	color: #B7B5B5;
+	text-align: left;
+}
+
+.filling .crossheading {
+	color: white;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 300;
+	background: red;
+	padding: 0 5px;
+}
+
+.noMargin:not(:first-child) {
+	margin: 0;
+	padding: 0;
+}
